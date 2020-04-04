@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url("fonts/Avenir Next Lt Pro/AvenirNextLTPro-Regular.otf");
+}
+
+body {
+    font-family: "Avenir Next" !important;
+}
+
+.main-header {
+    width: 100%;
+    padding: 50px;
+}
+
+.main-header__title {
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.main-block {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.main-block > div {
+    border: 2px solid #aaaaaa;
+    display: inline-block;
+    width: 50%;
+
+}
+
+.main-block__info,
+.main-block__sign_up {
+    padding: 15px;
+    display: block;
+}
+
+.main-block__info {
+    background-color: #F5F5F5;
+}
+
+.main-block__info-title,
+.main-block__sign_up-title {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.main-block__info-text {
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-block__sign_up-inputs {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-block__sign_up-input {
+    padding: 15px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.main-block__sign_up-input > input {
+    width: 100%;
+    padding: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.main-block__sign_up-input > input:focus {
+    background-color: #F5F5F5;
+    border: 2px solid #555;
+}
